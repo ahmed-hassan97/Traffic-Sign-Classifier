@@ -21,12 +21,60 @@
 ---
 # Overview
 
+In this project, you will use what you've learned about deep neural networks and convolutional neural networks to classify traffic
+
+signs. Specifically, you'll train a model to classify traffic signs from the ![German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset)
 
 ---
+## set up environment 
 
+### CarND Starter Kit
+
+Install the car nanodegree starter kit if you have not already done so: ![carnd starter kit](https://github.com/udacity/CarND-Term1-Starter-Kit)
+
+### TensorFlow
+
+If you have access to a GPU, you should follow the TensorFlow instructions for ![installing TensorFlow with GPU support](https://www.tensorflow.org/get_started/os_setup#optional_install_cuda_gpus_on_linux)
+
+Once you've installed all of the necessary dependencies, you can install the tensorflow-gpu package:
+```
+          pip install tensorflow-gpu
+  
+```
+
+### Amazon Web Services
+
+Instead of a local GPU, you could use Amazon Web Services to launch an EC2 GPU instance. (This costs money.)
+
+![Follow the Udacity instructions](https://s3-us-west-1.amazonaws.com/udacity-selfdrivingcar/forum_archive/AWS+Instructions.pdf) to launch an EC2 GPU instance with the udacity-carnd AMI.
+
+Complete the Setup instructions.
+
+---
+### start project 
+
+![Download the dataset]() This is a pickled dataset in which we've already resized the images to 32x32.
+
+Clone the project and start the notebook.
+```
+      git clone https://github.com/udacity/CarND-Traffic-Sign-Classifier-Project
+      cd CarND-Traffic-Sign-Classifier-Project
+
+```
+Launch the Jupyter notebook: 
+```
+           jupyter notebook Traffic_Sign_Classifier.ipynb
+           
+```
+1- Check out the project ![rubric](https://review.udacity.com/#!/rubrics/481/view)
+
+2- Follow the instructions in the notebook
+
+3- Write your project report
+
+---
 # steps of project
 
----
 
 **Build a Traffic Sign Recognition Project**
 
@@ -90,10 +138,31 @@ I used the numpy library to calculate summary statistics of the traffic
 signs data set:
 
 * The size of training set is 34799
-* The size of test set is 12630
-* The shape of a traffic sign image is (32, 32, 3)
-* The number of unique classes/labels in the data set is 43
+```
+# TODO: Number of training examples
+n_train = X_train.shape[0]
 
+```
+* The size of test set is 12630
+```
+# TODO: Number of testing examples.
+n_test = X_test.shape[0]
+
+```
+
+* The shape of a traffic sign image is (32, 32, 3)
+```
+# TODO: What's the shape of an traffic sign image?
+image_shape = X_train[0].shape
+
+```
+
+* The number of unique classes/labels in the data set is 43
+```
+# TODO: How many unique classes/labels there are in the dataset.
+n_classes = len(np.unique(y_train))
+
+```
 #### 2. Include an exploratory visualization of the dataset and identify where the code is in your code file.
 
 The code for this step is contained in the third code cell of the IPython notebook.  
@@ -232,4 +301,3 @@ The model was able to correctly guess 5 of the 5 traffic signs, which gives an a
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction and identify where in your code softmax probabilities were outputted. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
-The answer to this question is above.
