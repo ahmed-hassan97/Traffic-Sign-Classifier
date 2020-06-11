@@ -1,7 +1,6 @@
 ## Project: Build a Traffic Sign Recognition Program
-[![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
-## Ryein's Traffic Sign Recognition
+## Traffic Sign Recognition
 
 **Build a Traffic Sign Recognition Project**
 
