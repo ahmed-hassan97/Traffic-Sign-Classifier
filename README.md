@@ -28,7 +28,6 @@
 
 ---
 
-
 **Build a Traffic Sign Recognition Project**
 
 The goals / steps of this project are the following:
@@ -80,9 +79,6 @@ The goals / steps of this project are the following:
  4. Test model on new images, I found new images on the internet and tried to find images that were already classified out of the 43 classes.  It wasn't difficult, but at first I did try images that were very difficult to classify and it didn't do that well.  After I found images of signs that were severely damaged it identified the images fairly well.  I did scale my images perfectly to 32x32 as well which is probably some what limiting to real scenarios. Finally I also show the probabilities reduced for softmax probabilities and also individual performance along with total performance for all.
 
 ---
-### Writeup / README
-
-#### 1a. Here is a link to my [project code](https://github.com/Goddard/udacity-traffic-sign-classifier/blob/master/Traffic_Sign_Classifier.ipynb)
 
 ### Data Set Summary & Exploration
 
