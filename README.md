@@ -41,35 +41,35 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./write-up/1-dataset-visualization.png "Image Visualization"
-[image1a]: ./write-up/2-train-dataset-graph.png "Train Count Visualization"
-[image1b]: ./write-up/3-test-dataset-graph.png "Test Count Visualization"
-[image1c]: ./write-up/4-valid-dataset-graph.png "Valid Count Visualization"
+[image1]: ./images/1-dataset-visualization.png "Image Visualization"
+[image1a]: ./images/2-train-dataset-graph.png "Train Count Visualization"
+[image1b]: ./images/3-test-dataset-graph.png "Test Count Visualization"
+[image1c]: ./images/4-valid-dataset-graph.png "Valid Count Visualization"
 
-[image2]: ./write-up/5-dataset-grayscale.png "Grayscaling"
-[image2aug]: ./write-up/5a-dataset-random-augmentation.png "Random Augmentation"
-[image2train]: ./write-up/5b-train-dataset-graph.png "Train Count Visualization"
-[image2test]: ./write-up/5b-test-dataset-graph.png "Test Count Visualization"
-[image2valid]: ./write-up/5b-valid-dataset-graph.png "Valid Count Visualization"
+[image2]: ./images/5-dataset-grayscale.png "Grayscaling"
+[image2aug]: ./images/5a-dataset-random-augmentation.png "Random Augmentation"
+[image2train]: ./images/5b-train-dataset-graph.png "Train Count Visualization"
+[image2test]: ./images/5b-test-dataset-graph.png "Test Count Visualization"
+[image2valid]: ./images/5b-valid-dataset-graph.png "Valid Count Visualization"
 
-[image2a]: ./write-up/6-dataset-normalized.png "Normalized"
+[image2a]: ./images/6-dataset-normalized.png "Normalized"
 
-[image3]: ./write-up/7-test-dataset-accuracy-graph.png "Test Accuracy"
-[image3a]: ./write-up/7-valid-dataset-accuracy-graph.png "Validation Accuracy"
+[image3]: ./images/write-up/7-test-dataset-accuracy-graph.png "Test Accuracy"
+[image3a]: ./images/7-valid-dataset-accuracy-graph.png "Validation Accuracy"
 
-[image4]: ./write-up/1.png "Traffic Sign 1"
-[image5]: ./write-up/2.png "Traffic Sign 2"
-[image6]: ./write-up/3.png "Traffic Sign 3"
-[image7]: ./write-up/4.png "Traffic Sign 4"
-[image8]: ./write-up/5.png "Traffic Sign 5"
-[image9]: ./write-up/6.png "Traffic Sign 6"
+[image4]: ./images/1.png "Traffic Sign 1"
+[image5]: ./images/2.png "Traffic Sign 2"
+[image6]: ./images/3.png "Traffic Sign 3"
+[image7]: ./images/4.png "Traffic Sign 4"
+[image8]: ./images/5.png "Traffic Sign 5"
+[image9]: ./images/6.png "Traffic Sign 6"
 
-[image10a]: ./write-up/10a-my-signs-k-prediction.png "My Sign K softmax prediction"
-[image10b]: ./write-up/10b-my-signs-k-prediction.png "My Sign K softmax prediction"
-[image10c]: ./write-up/10c-my-signs-k-prediction.png "My Sign K softmax prediction"
-[image10d]: ./write-up/10d-my-signs-k-prediction.png "My Sign K softmax prediction"
-[image10e]: ./write-up/10e-my-signs-k-prediction.png "My Sign K softmax prediction"
-[image10f]: ./write-up/10f-my-signs-k-prediction.png "My Sign K softmax prediction"
+[image10a]: ./images/write-up/10a-my-signs-k-prediction.png "My Sign K softmax prediction"
+[image10b]: ./images/10b-my-signs-k-prediction.png "My Sign K softmax prediction"
+[image10c]: ./images/10c-my-signs-k-prediction.png "My Sign K softmax prediction"
+[image10d]: ./images/10d-my-signs-k-prediction.png "My Sign K softmax prediction"
+[image10e]: ./images/10e-my-signs-k-prediction.png "My Sign K softmax prediction"
+[image10f]: ./images/10f-my-signs-k-prediction.png "My Sign K softmax prediction"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  This is a summary.  Continue further to read each in depth.   
